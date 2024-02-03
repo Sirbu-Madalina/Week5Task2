@@ -1,0 +1,46 @@
+:root {
+    --column-width: 200px;
+    --column-gap: 20px;
+    --container-padding: 20px;
+    --color-1: #D04848;
+    --color-2: #F3B95F;
+    --color-3: #FDE767;
+    --color-4: #6895D2;
+    --font-color: #fff;
+}
+
+.container{
+    display: flex;
+    justify-content: space-evenly;
+    height: 100vh;
+    align-items: center;
+    color: var(--font-color);
+}
+
+.box1 {
+    padding: var(--container-padding);
+    background-color: #D04848;
+    width: var(--column-width);
+    gap: var(--column-gap);
+}
+
+.box2 {
+    padding: var(--container-padding);
+    background-color: #F3B95F;
+    width: var(--column-width);
+    gap: var(--column-gap);
+}
+
+.box3 {
+    padding: var(--container-padding);
+    background-color: #FDE767;
+    width: var(--column-width);
+    gap: var(--column-gap);
+}
+
+.box4 {
+    padding: var(--container-padding);
+    background-color: #6895D2;
+    width: var(--column-width);
+    gap: var(--column-gap);
+}
